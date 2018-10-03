@@ -61,5 +61,4 @@ if s!=3:
         print('please name the output file')
         name=input('File name :')
         W.wFile(name,B)
-#    OpenFilename=input('Put the file name :')
 
