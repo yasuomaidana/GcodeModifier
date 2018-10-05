@@ -20,31 +20,51 @@ def printGCodeLines(mA, start, end):
     for i in range(start, end):
         print(mA[i])
 
-def searchNearestValue(mA,Value):
-    import numpy as np
-    array = np.asanyarray(mA)
-    idx=(np.abs(array-Value)).argmin()
-    return mA[idx]
+class setZ:
+    def searchNearestValue(mA,Value):
+        import numpy as np
+        array = np.asanyarray(mA)
+        idx=(np.abs(array-Value)).argmin()
+        return mA[idx]
 
-def obtainZWorkValues(mA,Value):
-    mZ=[]
-    for i in mA:
-        if 'Z' in i:
-            if 'G28' not in i:
-                for j in i.split():
-                    if 'Z' in j:
-                        if j.replace('Z','') != '':
-                            mZ.append(float(j.replace('Z','')))
-    del mZ[:1]
-    import numpy
-    min=numpy.asanyarray(mZ)
-    return [searchNearestValue(mZ,Value),mZ[min.argmin()]]
+    def startZ(mA):
+        from collections import Counter
+        b=[]
+        m=0
+        for i in mA:
+            b.append(round(i-m,2))
+            m=i
+        m=Counter(b)
+        m= m.most_common(1)[0][0]
+        return m
 
-def newZstartModifier(mA,Value):
-    mR=[]
-    allow=0
-    #for i in mA:
+    def delbefStart(mA):
+        ini=False
+        ret=[]
+        for i in mA:
+            if i == setZ.startZ(mA):
+                ini=True
+            if ini:
+                ret.append(i)
+        return ret
 
+    def obtainZWorkValues(mA):
+        mZ=[]
+        for i in mA:
+            if 'Z' in i:
+                if 'G28' not in i:
+                    for j in i.split():
+                        if 'Z' in j:
+                            if j.replace('Z','') != '':
+                                mZ.append(float(j.replace('Z','')))
+        return mZ
+
+    def newZstartModifier(mA,Value):
+        WorkValues=setZ.obtainZWorkValues(mA)
+        worksmall=setZ.delbefStart(WorkValues)
+        nearPoint=setZ.searchNearestValue(worksmall,Value)
+        ini=True
+        for i in mA:
 
 
 class Reader:

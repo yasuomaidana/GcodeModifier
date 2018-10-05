@@ -1,5 +1,6 @@
 from utilery import Reader
 from utilery import Writer
+from utilery import setZ
 import utilery as Tools
 R=Reader()
 print('You are in easy mode gCode set Z axis modifier')
@@ -35,5 +36,15 @@ if s!=3:
     Read.close()
     #z=input('Enter the Z start value :')
     z=1
-    print('The nearest value is')
-    print(Tools.obtainZWorkValues(B,z))
+
+    setZ.newZstartModifier(B,z)
+
+    #print('The work values are')
+    #mA=setZ.obtainZWorkValues(B)
+    #print(mA)
+    #print('The work nearest point is')
+    #print(setZ.searchNearestValue(mA,z))
+
+
+    #print('-----')
+    #print(setZ.delbefStart(mA))
