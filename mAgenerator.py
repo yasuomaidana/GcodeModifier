@@ -1,3 +1,4 @@
+#This generates the commands lines needed to move the extruter
 class mPrint():
     def __init__(self,t='',fr='',l=''):
         self.mA=[]
