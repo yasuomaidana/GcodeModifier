@@ -4,15 +4,7 @@
     <list default="true" id="1fafea02-192c-475a-b89c-8b330b36673a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proof.gcode" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proof2.gcode" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tmodifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tmodifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZaxisModifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZaxisModifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mAgenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/mAgenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routines_.py" beforeDir="false" afterPath="$PROJECT_DIR$/routines_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setZaxis.py" beforeDir="false" afterPath="$PROJECT_DIR$/setZaxis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilery.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilery.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +16,15 @@
     <session id="-702683150">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,12 +47,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="426" />
-          <entry key="py" value="9929" />
+          <entry key="py" value="9972" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="10355" />
+          <entry key="Python" value="10398" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -68,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setZaxis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="150">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -80,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tmodifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="-147">
+              <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -93,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/utilery.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <marker date="1538867206898" expanded="true" signature="5015:5453" ph="..." />
                 <marker date="1538867206898" expanded="true" signature="5482:5491" ph="..." />
@@ -106,22 +101,15 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.gcode">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZaxisModifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="135">
               <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -143,8 +131,8 @@
         <option value="$PROJECT_DIR$/routines_.py" />
         <option value="$PROJECT_DIR$/setZaxis.py" />
         <option value="$PROJECT_DIR$/ZaxisModifier.py" />
-        <option value="$PROJECT_DIR$/Tmodifier.py" />
         <option value="$PROJECT_DIR$/utilery.py" />
+        <option value="$PROJECT_DIR$/Tmodifier.py" />
       </list>
     </option>
   </component>
@@ -173,7 +161,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -188,7 +176,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.Tmodifier">
+    <configuration name="Tmodifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GcodeModifier" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tmodifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GcodeModifier" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,9 +265,11 @@
       <item itemvalue="Python.setZaxis" />
       <item itemvalue="Python.utilery" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.Tmodifier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tmodifier" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.setZaxis" />
         <item itemvalue="Python.utilery" />
@@ -275,7 +286,7 @@
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,16 +302,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prueba.gcode">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prueba2.gcode">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.gcode" />
+    <entry file="file://$PROJECT_DIR$/prueba2.gcode" />
     <entry file="file://$PROJECT_DIR$/ZAxisSetup.gcode">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -327,34 +330,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proof.gcode">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proof2.gcode">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proof">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.gcode">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Proof.gcode" />
+    <entry file="file://$PROJECT_DIR$/Proof2.gcode" />
+    <entry file="file://$PROJECT_DIR$/Proof" />
     <entry file="file://$PROJECT_DIR$/mAgenerator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZaxisModifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -365,10 +347,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1.gcode" />
     <entry file="file://$PROJECT_DIR$/setZaxis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="150">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1538867206898" expanded="true" signature="5015:5453" ph="..." />
+            <marker date="1538867206898" expanded="true" signature="5482:5491" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZaxisModifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -377,21 +381,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tmodifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="-147">
+          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <marker date="1538867206898" expanded="true" signature="5015:5453" ph="..." />
-            <marker date="1538867206898" expanded="true" signature="5482:5491" ph="..." />
           </folding>
         </state>
       </provider>
@@ -399,7 +392,7 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>

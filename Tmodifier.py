@@ -25,7 +25,7 @@ elif s==2:
     print('Insert the path of your file, please be sure of ')
     p=input('put all the information')
     p=p.replace('\\','/')
-    t=input('Insert the new temperature if you want disable heaters please insert -0 :')
+    t=input('Insert the new temperature if you want disable heaters please insert 0 :')
     o=100
 else:
     print('Please choose a valid option')
@@ -40,7 +40,7 @@ if s!=3:
     #It creates a list of the commands
     B=R.QuickReader(s,p)
     S=''
-    if t!=str(-0):
+    if t!=str(0):
         S='S'
     #This function modify the given instructions
     B=Utilery.modify(B,'M109',S,t)
