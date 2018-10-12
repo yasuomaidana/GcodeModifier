@@ -64,7 +64,8 @@ class setZ:
 
     ###################################################
     ###This method search and returns the nearest value
-    ###in a list given a reference
+    ###in a list
+    # given a reference
     ###inputs mA list
     ###       Value float, this is the reference
     ###Output mA[idx] float, this is the first nearest
@@ -91,7 +92,17 @@ class setZ:
             m=i
         m=Counter(b)
         m= m.most_common(1)[0][0]
-        return m
+        mul=True
+        for i in mA:
+            if mul:
+                past=i
+                mul=False
+            if past+m==i:
+                m=past+m        
+                break
+            else:
+                past=i
+        return past
 
     ###################################################
     ###This method search and returns the layers's height
@@ -159,6 +170,7 @@ class setZ:
     def ZstartModifier(mA,Value):
         WorkValues=setZ.obtainZWorkValues(mA)
         worksmall=setZ.delbefStart(WorkValues)
+        print(worksmall)
         nearPoint=setZ.searchNearestValue(worksmall,Value)
         print('It will start printing from the height :',nearPoint)
         ini=False
