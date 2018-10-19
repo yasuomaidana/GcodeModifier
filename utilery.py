@@ -170,7 +170,6 @@ class setZ:
     def ZstartModifier(mA,Value):
         WorkValues=setZ.obtainZWorkValues(mA)
         worksmall=setZ.delbefStart(WorkValues)
-        print(worksmall)
         nearPoint=setZ.searchNearestValue(worksmall,Value)
         print('It will start printing from the height :',nearPoint)
         ini=False

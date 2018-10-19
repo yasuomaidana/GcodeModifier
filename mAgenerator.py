@@ -12,7 +12,7 @@ class mPrint():
         self.mA.append('M82        ;set extruder to absolute mode')
         self.mA.append('M107       ;start with the fan off')
         self.mA.append('M302')
-        self.mA.append('M92 E2000')
+        self.mA.append('M92 E2600')
         self.mA.append(';G28 X0 Y0  ;move X/Y to min endstops')
         self.mA.append(';G28 Z0     ;move Z to min endstops')
         self.mA.append(';G1 Z15.0 F9000 ;move the platform down 15mm')
@@ -43,6 +43,6 @@ class mPrint():
                     v='.3'
             self.mA=Tools.replaceLine(self.mA,i,i+v)
             c=c+1
-        self.mA=Tools.modify(self.mA,'M92','E','1000')
+        self.mA=Tools.modify(self.mA,'M92','E','2600')
         self.mA=Tools.modify(self.mA,'G1','F',fr)
         self.mA=Tools.modify(self.mA,'G1','E',l)
