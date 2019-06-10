@@ -3,7 +3,7 @@ from utilery import Writer
 from mAgenerator import mPrint
 ###############################################################################
 #####This is the menu of this section
-print('Insert the feed rate in mm/m (we made the proof with 9000)')
+print('Insert the feed rate in mm/m (we made the proof with 500)')
 Velocity=input('Feed rate (Velocity) :')
 print('Inser in mm how much you want to move the')
 Distance=input('z axis :')
